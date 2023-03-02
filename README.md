@@ -5,6 +5,34 @@
 
 Powerful reverse proxy for Cloud-flare with CORS
 
+### Deployment
+
+- Create a new service here in CloudFlare
+
+![image](https://user-images.githubusercontent.com/45560312/222504879-cf82c2d4-1978-4963-9625-37b94cec925f.png)
+
+- Name it what ever you want and set your parms to what ever in the diagram and create service
+
+![image](https://user-images.githubusercontent.com/45560312/222504965-54eb8c0f-ddaf-4004-a9b4-95bd6f468eed.png)
+
+- Click `Quick Edit`
+
+![image](https://user-images.githubusercontent.com/45560312/222505161-0574de6a-d77c-4de3-a095-edd16aca03a0.png)
+
+- Paste the code from `ReverseProxy.js` as stated in the photo 
+
+![image](https://user-images.githubusercontent.com/45560312/222505343-e59c1620-59da-4d9b-8270-42f0b5b7d81a.png)
+
+- Once done `Save and deploy`
+
+![image](https://user-images.githubusercontent.com/45560312/222505437-79dfd4c1-410a-4906-8a65-4ee213b1b58a.png)
+
+
+- Use this tool to test
+
+![image](https://user-images.githubusercontent.com/45560312/222505565-035c5229-9940-4076-9b62-34636e88d998.png)
+
+Obviously you wont get that hello world but look at Usage on a guide on how to use the worker!.
 
 ### Usage
 
